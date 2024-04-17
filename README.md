@@ -3,10 +3,13 @@
 ### MOTIVATION AND BACKGROUND
 • goal-oriented dialog systems, a.k.a virtual assistants (VAs), often fail to
    recognize the intent of natural language requests
+   
 • in practice, these cases are normally identified using intent classifier
    uncertainty – requests that are predicted to have a level of confidence below a
    certain threshold are reported as unrecognized (or unhandled)
+   
 • unhandled requests carry over various aspects of potential importance
+
 • in large deployments the number of unhandled requests can reach tens of
    thousands daily, making manual inspection impractical
 
