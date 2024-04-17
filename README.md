@@ -1,6 +1,6 @@
 # NLP-finalProject
 
-# MOTIVATION AND BACKGROUND
+### MOTIVATION AND BACKGROUND
 • goal-oriented dialog systems, a.k.a virtual assistants (VAs), often fail to
    recognize the intent of natural language requests
 • in practice, these cases are normally identified using intent classifier
@@ -14,7 +14,7 @@
 • (1) surfacing topical clusters in unhandled requests (clustering)
 • (2) cluster naming (labeling)
 
-CLUSTERING REQUESTS – requirements
+### CLUSTERING REQUESTS – requirements
 Clustering solutions can be roughly categorized into across two major dimensions:
 • requiring a predefined (fixed) number of output clusters
 • forcing cluster assignment on the entire dataset
@@ -24,7 +24,7 @@ VS
 • tolerating outliers
 (required in our use-case)
 
-EVALUATION
+### EVALUATION
 • (1) surfacing topical clusters in unhandled requests (clustering)
 • multiple dataset(s) with (good) clustering solution will be provided as a ground truth
 • quantitative evaluation
@@ -32,7 +32,7 @@ EVALUATION
 • example assignment of cluster names will be provided
 • qualitative evaluation
 
-CLUSTERING EVALUATION: GROUND TRUTH IS KNOWN
+### CLUSTERING EVALUATION: GROUND TRUTH IS KNOWN
 • rand index (RI) and adjusted rand index (adjusted RI)
 • the number of un-clustered instances
 • the number of clusters
