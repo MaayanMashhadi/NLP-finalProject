@@ -13,7 +13,7 @@
 • in large deployments the number of unhandled requests can reach tens of
    thousands daily, making manual inspection impractical
 
-• our goal is to propose (and implement) an approach for
+our goal is to propose (and implement) an approach for:
 • (1) surfacing topical clusters in unhandled requests (clustering)
 • (2) cluster naming (labeling)
 
